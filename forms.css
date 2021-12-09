@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color: rgba(255,204,153,.9);
+  color: orange;
+}
+form{
+  font-size: 25px;
+}
+textarea{
+  background-color: rgb(255,229,204);
+}
+input{
+  background-color: rgb(255,229,204);
+  /* height: 40px;
+  width: 150px; */
+}
+select{
+  background-color: rgb(255,229,204);
+}

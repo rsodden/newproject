@@ -1,0 +1,90 @@
+/* body{
+  margin: 0;
+} */
+
+body{
+  background-color: rgba(255,204,153,.9);
+  align-content: center;
+}
+
+
+.container{
+          display: flex;
+          flex-wrap:      wrap;
+          justify-content:     center;
+}
+
+h1{
+   font-family:   fantasy, sans-serif;
+   font-size: 3em;
+  /* border-bottom: 2px solid pink;
+      width: 600px; */
+  text-align: center;
+
+
+
+  -moz-box-shadow: 5px 6px 6px orange;
+  -ms-box-shadow: 5px 6px 6px orange;
+  -webkit-box-shadow: 5px 6px 6px orange;
+   -o-box-shadow: 5px 6px 6px orange;
+
+
+   margin-top: 10px;
+
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  margin: 8px;
+     transition: all .5s;
+
+}
+
+img:hover {
+   transform: scale(1.4);
+}
+a{
+  /* width: 150px;
+  height: 75px; */
+  font-size: 1.2em;
+}
+
+/* mobile*/
+  /* @media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; * Red *
+  }
+} */
+
+/* Tablet Styles */
+/* @media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; * Yellow*
+  }
+}
+
+Desktop Styles
+/* @media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; * Blue *
+  } */
+  button{
+    height:50px
+  }
+
+  p{
+  text-align: center;
+  color: orange;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+  .dropdown-item{
+    text-align: center;
+    font-size: 1em;
+
+  }
